@@ -8,26 +8,9 @@ namespace RevDesconto
 {
     public class Desconto
     {
-        private string _nome;
-        public string Nome
-        {
-            get { return _nome; }
-            set { _nome = value; }
-        }
-
-        private int _quantidade;
-        public int Quantidade
-        {
-            get { return _quantidade; }
-            set { _quantidade = value; }
-        }
-
-        private double _preco;
-        public double Preco
-        {
-            get { return _preco; }
-            set { _preco = value; }
-        }
+        public string Nome { get; set; }
+        public int Quantidade { get; set; }
+        public double Preco { get; set; }
 
         public Desconto(string nome, int quantidade, double preco)
         {
